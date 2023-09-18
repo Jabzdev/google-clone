@@ -1,5 +1,5 @@
 .main {
-    margin-top: 100px;    
+    margin-top: 200px;   
 }
 
 .logo-img {
@@ -30,8 +30,8 @@
 }
 
 .btn {
-    margin-left: 4px;
-    margin-right: 4px;
+    margin-left: 6px;
+    margin-right: 6px;
     margin-top: 30px;
     background: #dfe1e5;
     border: none;
@@ -41,4 +41,9 @@
     padding-right: 16px;
     border-radius: 4px;
     font-size: 14px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #CAD2C5;
 }
